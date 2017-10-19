@@ -36,13 +36,38 @@
 					</h4>
 				</section>
 				<section>
-					<h2>Co tak naprawdę dzisiaj zbudujemy?</h2>
-					<ul>
-						<li>Gra</li>
-						<li>Realtime</li>
-						<li>Quizapp</li>
-						<li>Desktop, ale mobile friendly</li>
-					</ul>
+					<section>
+						<h2>Co tak naprawdę dzisiaj zbudujemy?</h2>
+					</section>
+					<section>
+						<h3>Gra!</h3>
+					</section>
+					<section>
+						<h3>Realtime</h3>
+					</section>
+					<section>
+						<h3>Quizapp</h3>
+					</section>
+					<section>
+						<h3>Desktop, ale mobile friendly</h3>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Jak będziemy dzisiaj pracować?</h2>
+					</section>
+					<section>
+						<h3>Warsztaty, więc kodzimy na ekranie ;-)</h3>
+					</section>
+					<section>
+						<h3>Każdy równolegle pracuje na swoim lapku</h3>
+					</section>
+					<section>
+						<h3>Zaczynamy od startera i dopisujemy wspólnie brakujące części</h3>
+					</section>
+					<section>
+						<h3>Z warsztatów każdy wychodzi z działającym klientem</h3>
+					</section>
 				</section>
 				<section>
 					<section>
@@ -58,13 +83,8 @@
 						</ul>
 					</section>
 
-					<section data-background-image="img/jetblue.jpg">
-
-					</section>
-
-					<section data-background-image="img/cc.jpg">
-
-					</section>
+					<section data-background-image="img/jetblue.jpg"></section>
+					<section data-background-image="img/cc.jpg"></section>
 				</section>
 
 				<section data-background-image="https://media.giphy.com/media/7eAvzJ0SBBzHy/giphy.gif?response_id=591ef5961dae0cfdd2737995"></section>
@@ -96,16 +116,10 @@
 						<ul>
 							<li>Wykorzystamy vue.js</li>
 							<li>ES2015</li>
-							<li>Będziemy buildować gulpowymi taskami</li>
-							<li>Browserify</li>
-							<li>Efekt naszych dzisiejszych warsztatów</li>
+							<li>Będziemy korzystać z webpacka</li>
+							<li>VueCLI (https://github.com/vuejs/vue-cli)</li>
+							<li>VuePack (https://github.com/egoist/vuepack) (Vue, Vuex, Vue-router)</li>
 						</ul>
-						<br>
-						<br>
-						<h4>Repozytorium</h4>
-						<p>
-							...a nie podam
-						</p>
 					</section>
 					<section>
 						<h2>Komunikacja</h2>
@@ -147,214 +161,272 @@
 							npm i
 						</p>
 					</section>
-					<section>
-						<h2>Gulpfile</h2>
-						<p>Less + Autoprefixer</p>
-						<p>CommonJS vs AMD</p>
-						<p>
-							Babelify
-							<a href="https://github.com/babel/babelify">https://github.com/babel/babelify</a>
-						</p>
-						<p>
-							Browserify
-							<a href="http://browserify.org/">http://browserify.org/</a>
-						</p>
-						<p>
-							Vueify
-							<a href="https://github.com/vuejs/vueify">https://github.com/vuejs/vueify</a>
-						</p>
-
-						<h2>Npm scripts</h2>
-						<p>npm run dev - start watchera + lokalny serwer</p>
-						<p>npm run build - build plików dystrybucyjnych </p>
-
-					</section>
 
 					<section data-background-image="https://media.giphy.com/media/9DkT78OOEFoxG/giphy.gif?response_id=591f0f535e904030d449e624"></section>
 				</section>
 
 				<section>
 					<section data-background-color="#f92b6e">
-						<h3>PART I</h3>
-						<h1>HTML/CSS</h1>
-					</section>
-
-
-
-					<section>
-						<h2>Komponent</h2>
-						<ul>
-							<li>Template</li>
-							<li>Style</li>
-							<li>Data/Stan</li>
-							<li>Logika</li>
-						</ul>
-						<br>
-						<br>
-					</section>
-
-					<section>
-						<h2>WebComponents API</h2>
-						<ul>
-							<li>Custom Elements</li>
-							<li>HTML Templates</li>
-							<li>Shadow DOM</li>
-							<li>HTML Imports</li>
-						</ul>
-						<br>
-
-						<a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">https://developer.mozilla.org/en-US/docs/Web/Web_Components</a>
-						<a href="https://caniuse.com/#search=web%20components">https://caniuse.com/#search=web%20components</a>
-						<a href="https://www.polymer-project.org/">https://www.polymer-project.org/</a>
-					</section>
-
-					<section>
-						<h3>BEM</h3>
-						<p>Block__Element--Modifier</p>
-						<p>.form__submit--disabled</p>
-
-						<p>Na plus enkapsulowalność, rozwiązuje problemy z nazewnictwem, dla większych projektów.</p>
-						<p>Na minus to, że dają to jsowe frameworki + niszczy kaskadowość + nadmiarowy kod.</p>
-
-						<a href="http://getbem.com">http://getbem.com</a>
-					</section>
-
-					<section data-background-image="img/app.jpg" data-background-size="contain"></section>
-					<section data-background-image="img/appcom.jpg" data-background-size="contain"></section>
-
-					<section>
-						Komponent #1
-						<h2>Timer</h2>
-						<ul>
-							<li>Przypięty do góry ekranu</li>
-							<li>Na całą szerokość</li>
-							<li>"Kurczy się" co sekundę</li>
-						</ul>
+						<h3>INTRO 1/3</h3>
+						<h1>Projekt</h1>
 					</section>
 					<section>
-						Komponent #2
-						<h2>Player</h2>
-						<ul>
-							<li>Przypięty do dołu komponent zawierający aktualny stan grajacego</li>
-						</ul>
+						<h2>Package.json</h2>
+						<p>- scripts</p>
+						<p>- build / dev</p>
 					</section>
 					<section>
-						Komponent #3
-						<h2>Toaster</h2>
-						<ul>
-							<li>Zawiera realtime feed z gry</li>
-						</ul>
+						<h2>/client</h2>
+						<p>- pliki źródłowe które edytujemy</p>
+						<p>- podlegają transformacjom (transpilacje, pre i post processing css)</p>
+						<p>- jsy, cssy, lessy, sassy, .vue (!)</p>
 					</section>
 					<section>
-						Komponent #4
-						<h2>Centercontainer</h2>
-						<ul>
-							<li>Fullscreenowy element środkujący zawartość</li>
-							<li>Kontenerowaty, prezentacyjny, bez swojej daty i logiki</li>
-						</ul>
+						<h2>/static</h2>
+						<p>- pliki źródłowe które edytujemy</p>
+						<p>- nie ulegają żadnym transformacjom</p>
+						<p>- statyczne pliki</p>
+						<p>- index, obrazki, favicony etc</p>
 					</section>
 					<section>
-						Komponent #5
-						<h2>Card</h2>
-						<ul>
-							<li>Komponent po którym będzie dziedziczenie</li>
-							<li>Implementuje podstawowy kształt karty</li>
-							<li>Implementuje podstawowe stany karty</li>
-							<li>Performance animacji <a href="https://developers.google.com/web/fundamentals/performance/rendering/">https://developers.google.com/web/fundamentals/performance/rendering/</a></li>
-							<li><a href="https://csstriggers.com/">https://csstriggers.com/</a></li>
-						</ul>
+						<h2>/dist</h2>
+						<p>- zbudowana dystrybucyjna wersja naszej aplikacji</p>
+						<p>- do umieszczania w sieci</p>
+						<p>- zminifikowana, pomodułowana, zminimalizowana</p>
 					</section>
 					<section>
-						Komponent #6
-						<h2>Card-question</h2>
-						<ul>
-							<li>Rozserzenie komponentu Card do karty z pytaniem</li>
-						</ul>
+						<h2>Zawartość /client</h2>
+						<p>/components - komponenty naszej aplikacji</p>
+						<p>/style - globalne style naszej aplikacji</p>
+						<p>index.js - starter naszej aplikacji</p>
 					</section>
-					<section>
-						Komponent #7
-						<h2>Card-leaderboard</h2>
-						<ul>
-							<li>Rozserzenie komponentu Card do karty z leaderboardem</li>
-						</ul>
-					</section>
-					<section>
-						Komponent #8
-						<h2>Results</h2>
-						<ul>
-							<li>Animowanie na pseudoelementach</li>
-						</ul>
-					</section>
-
-					<section data-background-image="https://media.giphy.com/media/e0uyhR83NNSz6/giphy.gif"></section>
 				</section>
 
 				<section>
 					<section data-background-color="#f92b6e">
-						<h3>PART II</h3>
-						<h1>VUE.JS</h1>
+						<h3>INTRO 2/3</h3>
+						<h1>Komponentowość</h1>
 					</section>
+					<section>
+						<img src="http://blog.grossman.io/content/images/2016/07/layout-1.PNG">
+					</section>
+					<section>
+						<h2>Co składa się na taki komponent?</h2>
+						<p>Struktura (DOM)</p>
+						<p>Wygląd</p>
+						<p>Dane, które przyjmuje</p>
+						<p>Stan w danej chwili</p>
+						<p>Zachowanie</p>
+					</section>
+					<section>
+						<h2>W praktyce dla kodera?</h2>
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>JS</p>
+					</section>
+					<section>
+						<h2>Przykłady implementacji komponentów dla Weba</h2>
+						<p>WebComponents API</p>
+						<p>Polymer</p>
+						<p>Angular 1.6 +</p>
+						<p>React i Vue (!)</p>
+					</section>
+					<section data-background-image="img/app.jpg" data-background-size="contain"></section>
+					<section data-background-image="img/appcom.jpg" data-background-size="contain"></section>
+				</section>
+				<!---->
 
+				<section>
+					<section data-background-color="#f92b6e">
+						<h3>INTRO 3/3</h3>
+						<h1>Vue.JS</h1>
+					</section>
+					<section>
+						<p>https://vuejs.org</p>
+						<p>Stworzony w 2015 przez Evana You (Angular 1 dev w Google)</p>
+						<p>Deklaratywność i templatkowość z Angulara w połączniu z komponentowaniem z Reacta</p>
+						<p>Na dzisiaj jeden z trzech głównych frameworków frontowych</p>
+					</section>
 					<section>
 						<h3>+</h3>
 						<ul>
 							<li>Wyjątkowo prosta składnia</li>
 							<li>Lekki + wydajny</li>
-							<li>Reaktywny at his best</li>
+							<li>Reaktywny i komponentowy</li>
 							<li>Nie jest tak obudowany funkcjonalnościami</li>
-							<li>Czysty JS + HTMLowe templatki</li>
+							<li>HTMLowe templatki</li>
 							<li>Virtual DOM</li>
 						</ul>
 						<h3>-</h3>
 						<ul>
-							<li>Brak modułowości</li>
-							<li>Hard to test, ciezko sie skaluje, problemy z templatkami</li>
-							<li>Małe wsparcie</li>
-							<li>Jest dość samotny ;-)</li>
+							<li>Mniejsze wsparcie</li>
+							<li>Nie ma póki co frameworku do tworzenia aplikacji moblinych</li>
 						</ul>
 					</section>
 					<section>
-						<h3>Observable i reaktywnosc</h3>
-						<a href="https://github.com/Reactive-Extensions/RxJS">https://github.com/Reactive-Extensions/RxJS</a>
-						<img src="https://meebleforp.com/uploads/map.png" alt="">
-						<a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you've been missing (by @andrestaltz)</a>
-					</section>
-					<section data-background-image="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754/raw/35cc1edb69b7175fd1308800a244410890bc9b5f/zmantra.jpg" data-background-size="contain"></section>
-					<section>
-						<h3>Cykl zycia vue.js</h3>
-						<img src="https://vuejs.org/images/lifecycle.png" alt="">
+						<img src="https://vuejs.org/images/vue-component.png" alt="">
 					</section>
 					<section>
-						<h3>Obiekt(komponent) vue.js</h3>
-						<ul>
-							<li>Data</li>
-							<li>Template/El</li>
-							<li>Props</li>
-							<li>Methods</li>
-							<li>Computed</li>
-							<li>Events</li>
-						</ul>
-						<a href="https://vuejs.org/v2/guide/components.html"></a>
-					</section>
-					<section>
-						<h3>Dyrektywy vue.js</h3>
-						<ul>
-							<li>v-for=</li>
-							<li>v-bind:(style|src|class)=</li>
-							<li>{{ variable }}=</li>
-							<li>v-on:click=</li>
-						</ul>
-						<a href="https://vuejs.org/v2/guide/syntax.html">https://vuejs.org/v2/guide/syntax.html</a>
-					</section>
-					<section data-background-image="https://media.giphy.com/media/xT0BKgqxLJLHtUsRJ6/giphy.gif"></section>
-				</section>
+						<h2>Components</h2>
+						<p>Rejestracja komponentów używanych wewnątrz komponentu</p>
+						<pre><code>
+import subComponent, subComponent2;
 
+export default {
+	components: {
+		subComponent: subComponent,
+		subComponent2: subComponent2
+	}
+}
+</code></pre>
+					</section>
+					<section>
+						<h2>Data</h2>
+						<p>Dane przechowywane wewnątrz komponentu (stan komponentu)</p>
+						<pre><code>
+export default {
+	data: function () {
+		return {
+			clicksAmount: 10,
+			maxClicks: 100
+		}
+	}
+}
+</code></pre>
+					</section>
+					<section>
+						<h2>Props</h2>
+						<p>Dane przekazywane do komponentu (z komponentu rodzica)</p>
+<pre><code>
+export default {
+	props: ['clickText']
+}
+</code></pre>
+<pre><code>
+<subComponent :clickText="clickText"></subComponent>
+</code></pre>
+					</section>
+					<section>
+						<h2>Methods</h2>
+						<p>Funkcje komponentu</p>
+						<pre><code>
+export default {
+	methods: {
+		click: function () {
+			this.clicksAmount++;
+			console.log(this.clickText);
+		}
+	}
+}
+</code></pre>
+					</section>
+						<section>
+							<h2>Created</h2>
+<pre><code>
+export default {
+	created() {
+	}
+}
+</code></pre>
+							<h2>Mounted</h2>
+<pre><code>
+export default {
+	mounted() {
+	}
+}
+</code></pre>
+					</section>
+					<section>
+						<h2>Template</h2>
+					</section>
+					<section>
+					<h2>Dyrektywy vue.js</h2>
+<pre><code>
+<span>{{ msg }}</span>
+
+<p v-if="seen">Now you see me</p>
+
+<div :id="dynamicId"></div>
+
+<a @click="doSomething"> ... </a>
+
+<div :class="{'inactive' : state.inactive}"></div>
+
+<div :style="{ transform :  'scaleX(' + value/max + ')' }"></div>
+</code></pre>
+					</section>
+				</section>
+				<section data-background-image="https://media.giphy.com/media/e0uyhR83NNSz6/giphy.gif"></section>
 				<section>
 					<section data-background-color="#f92b6e">
-						<h3>PART III</h3>
+						<h3>KOMPONENT 1/4</h3>
+						<h1>App</h1>
+					</section>
+					<section>
+						<p>Importuje i zawiera wszystkie podkomponenty/elementy interfejsu</p>
+						<p>Przechowuje wszystkie dane i przesyła je do odpowiednich komponentów</p>
+						<p>To w nim odbywa się komunikacja po websocketach</p>
+						<p>Ma mało styli</p>
+					</section>
+					<section>
+						<p>HACK: Dynamika animacji</p>
+						<p>http://easings.net/pl</p>
+					</section>
+				</section>
+				<section>
+					<section data-background-color="#f92b6e">
+						<h3>KOMPONENT 2/4</h3>
+						<h1>Timer</h1>
+					</section>
+					<section>
+						<p>Przypięty do góry ekranu</p>
+						<p>Otrzymuje z komponentu App informacje o pozostałym czasie i początkowym czasie</p>
+						<p>Animowanie prezentuje upływający czas</p>
+					</section>
+					<section>
+						<p>HACK: Performance animacji</p>
+						<p>https://csstriggers.com/</p>
+						<p>https://developers.google.com/web/fundamentals/performance/rendering/</p>
+					</section>
+				</section>
+				<section>
+					<section data-background-color="#f92b6e">
+						<h3>KOMPONENT 3/4</h3>
+						<h1>Card-Question</h1>
+					</section>
+					<section>
+						<p>Prezentuje pytanie</p>
+						<p>Otrzymuje z komponentu App informacje o aktualnym pytaniu</p>
+						<p>Otrzymuje z komponentu App funkcje do wysyłania odpowiedzi</p>
+						<p>Ma trzy stany (lewo, aktywny, prawo)</p>
+						<p>Stylowanie dziedziczy po .card</p>
+					</section>
+					<section>
+						<p>HACK: LESS Extend</p>
+						<p>http://lesscss.org/features/#extend-feature</p>
+					</section>
+				</section>
+				<section>
+					<section data-background-color="#f92b6e">
+						<h3>KOMPONENT 4/4</h3>
+						<h1>Card-Leaderboard</h1>
+					</section>
+					<section>
+						<p>Prezentuje leaderboard</p>
+						<p>Otrzymuje z komponentu App informacje o aktualnej klasyfikacji</p>
+						<p>Ma trzy stany (lewo, aktywny, prawo)</p>
+						<p>Stylowanie dziedziczy po .card</p>
+					</section>
+					<section>
+						<p>HACK: Animowanie po pseudoelementach</p>
+					</section>
+				</section>
+				<section data-background-image="https://media.giphy.com/media/xT0BKgqxLJLHtUsRJ6/giphy.gif"></section>
+				<section>
+					<section data-background-color="#f92b6e">
+						<h3>KOMUNIKACJA</h3>
 						<h1>SOCKET.IO</h1>
 					</section>
-
 					<section>
 						<h3>Websockety</h3>
 						<ul>
@@ -365,9 +437,7 @@
 							<li>WS + WSS</li>
 						</ul>
 					</section>
-
 					<section>
-
 						<h3>Socket.io</h3>
 						<ul>
 							<li>JSowa biblioteka</li>
@@ -375,27 +445,20 @@
 							<li>Można powiedzieć że to jest taki wrapper na websockety</li>
 							<li>Dodaje np. rozgłaszenie komunikatów do wszystkich websocketów / dowiązywanie danych do konkretnego websocketa</li>
 						</ul>
-
 					</section>
-
 					<section>
-
 						<h3>API klienta Socket.io</h3>
-
 						<ul>
 							<li>.open()</li>
 							<li>.on(eventName, ()=>{});</li>
 							<li>.emit(eventName,[args])</li>
 							<li>.close()</li>
 						</ul>
-
 					</section>
-
-					<section data-background-image="https://raw.githubusercontent.com/piopik/devsmeat2-engine/master/docs/diagram.jpg" data-background-size="contain"></section>
-
 					<section>
-						<h3>Thats all!</h3>
+						<h3>Zajrzyjmy do naszego komponentu App</h3>
 					</section>
+					<section data-background-image="https://raw.githubusercontent.com/piopik/devsmeat2-engine/master/docs/diagram.jpg" data-background-size="contain"></section>
 				</section>
 
 				<section>
@@ -410,30 +473,13 @@
 						<a href="http://eslint.org/">http://eslint.org/</a>
 						<a href="https://github.com/airbnb/javascript">https://github.com/airbnb/javascript</a>
 					</section>
+					<section>
+						<h3>Store</h3>
+						<p>Vuex</p>
+					</section>
 				</section>
 
 				<section>
-					<section>
-						<h3>Kwestie do dyskusji</h3>
-					</section>
-
-					<section data-background-image="https://media.giphy.com/media/l0MYOUI5XfRk4LLWM/giphy.gif"></section>
-					<section>
-						<h3>Timer / zgubione sekundy</h3>
-						<ul>
-							<li>Liczymy sekundy na froncie</li>
-							<li>A może lepiej byłoby gdyby to WS "tykał" co sekundę</li>
-						</ul>
-					</section>
-
-					<section data-background-image="https://media.giphy.com/media/l3vR89zLJyrTX7Kc8/giphy.gif"  data-background-size="contain"></section>
-					<section>
-						<h3>Boty</h3>
-						<ul>
-							<li>Jak uodpornić tego typu grę na boty?</li>
-						</ul>
-					</section>
-
 					<section>
 						<h3>IsaaCloud</h3>
 						<a href="https://github.com/isaacloud">https://github.com/isaacloud</a>
@@ -445,29 +491,6 @@
 							<li>Gry, Taski, Badge, Achievementy, Vouchery...</li>
 						</ul>
 					</section>
-
-				</section>
-
-				<section>To jeszcze na koniec...</section>
-
-				<section>
-					<h2>Rozgrywka finałowa</h2>
-					<a>::ADRES SERWERA Z PYTANIAMI::</a>
-					<br> <br>
-					<ul>
-						<li>
-							30 pytań
-						</li>
-						<li>
-							Jedna poprawna odpowiedź
-						</li>
-						<li>
-							Dla zwycięzcy niespodzianka
-						</li>
-						<li>
-							Czast start
-						</li>
-					</ul>
 				</section>
 
 				<section data-background-image="https://media.giphy.com/media/lD76yTC5zxZPG/giphy.gif?response_id=592305faba7fcdd7b62b9783"></section>
